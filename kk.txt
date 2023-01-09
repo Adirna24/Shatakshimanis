@@ -1,0 +1,108 @@
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2
+$ git config --global user.name adirna
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2
+$ git config --global user.email
+shatakshicoding43@gmail.com
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2
+$ git config --global user.email shatakshiwork7@gmail.com
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2
+$ git init
+Initialized empty Git repository in C:/Users/HP/OneDrive/Desktop/G2/.git/
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ git add --a
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        kk.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ git add --a
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   kk.txt
+
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ git commit -m "initial commit"
+[master (root-commit) 9b6f874] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 kk.txt
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ ^[[200~  git remote add <name> <url>
+bash: syntax error near unexpected token `<'
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$   git remote add Shatakshimanis https://github.com/Adirna24/Shatakshimanis.git
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ git push Shatakshimanis
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream Shatakshimanis master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$ ^C
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$     git push --set-upstream Shatakshimanis master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 210 bytes | 210.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Adirna24/Shatakshimanis.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'Shatakshimanis/master'.
+
+HP@LAPTOP-DD6HMBLQ MINGW64 ~/OneDrive/Desktop/G2 (master)
+$
